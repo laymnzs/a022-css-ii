@@ -1,24 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header{
-    border-bottom: 1px solid black;
+    text-align: center;
+    
   }
   
   main{
     width: 800px;
+    position: relative;
+    height: 42vh;
+    margin: 40px 0px 0px 300px;
+
+  }
+
+  .texto{
+    margin: 0;
   }
   
   aside{
     width: 180px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 35, 156);
+    text-align: center;
+    margin-left: 45vw;
+  }
+
+  aside:active {
+    color: white;
+    background-color: black;
   }
   
   footer{
-    background-color: black;
+    background-color: rgb(255, 35, 156);
     color: white;
     width: 100%;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  button:active{
+    background-color: rgb(255, 35, 156);
+    color: white;
   }
